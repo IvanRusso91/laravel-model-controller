@@ -1,0 +1,60 @@
+header {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+header ul li a:hover {
+  color: wheat;
+  text-decoration: underline;
+}
+
+body {
+  background-image: url(https://besthqwallpapers.com/Uploads/25-2-2021/157484/4k-filmstrip-textures-vector-backgrounds-grunge-backgrounds-cinematograph.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 100px);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 300px;
+  font-size: 5rem;
+  color: wheat;
+  padding: 30px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.about {
+  margin-top: 100px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: wheat;
+  border-radius: 50px;
+}
+
+.scheda {
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 50px;
+}
+
+tr {
+  color: wheat;
+}

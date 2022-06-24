@@ -3,5 +3,7 @@
 
 @section('content')
 
-<h1>home</h1>
+<div class="container">
+    <h1>Benvenuto sul sito MY Movies</h1>
+</div>
 @endsection

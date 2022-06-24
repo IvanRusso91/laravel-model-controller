@@ -1,0 +1,25 @@
+header{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            margin-right: 20px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 2rem;
+                &:hover{
+                    color:wheat;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}
+
