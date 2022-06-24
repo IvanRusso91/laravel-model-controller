@@ -10,7 +10,7 @@ class MovieController extends Controller
 {
     public function index(){
 
-        $movies = Movie::limit(5)->orderBy('title')->where('nationality')->get();
+        $movies = Movie::all();
 
         return view('movie', compact('movies'));
     }
